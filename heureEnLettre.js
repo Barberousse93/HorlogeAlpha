@@ -22,9 +22,9 @@ function handleSecondes(sec) {
     if (secondesEnLettres === '') {
         ss.innerText = ''
     } else if (secondesEnLettres ==='une')  {
-        ss.innerText =secondesEnLettres +' seconde'
+        ss.innerText = ' et ' + secondesEnLettres +' seconde'
     } else {
-        ss.innerText = secondesEnLettres +' secondes'
+        ss.innerText = ' et ' + secondesEnLettres +' secondes'
     }
 }
 
